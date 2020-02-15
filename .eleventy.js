@@ -6,7 +6,8 @@ module.exports = eleventyConfig => {
       const diameter = radius * 2;
       const size = diameter + strokeWidth;
 
-      //return `<div style="color: red">TEST</div>`;
+      // Using trim avoids the problem described here:
+      // https://www.11ty.dev/docs/languages/markdown/#there-are-extra-and-in-my-output
       return `
         <svg
           style="height: ${size}px; width: ${size}px"
@@ -20,7 +21,7 @@ module.exports = eleventyConfig => {
             stroke-width="${strokeWidth}"
             r="${radius}" />
         </svg>
-      `;
+      `.trim();
     }
   );
 };
