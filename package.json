@@ -1,0 +1,23 @@
+{
+  "name": "11ty-svg-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvolkmann/11ty-svg-issue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvolkmann/11ty-svg-issue/issues"
+  },
+  "homepage": "https://github.com/mvolkmann/11ty-svg-issue#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}
